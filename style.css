@@ -1,0 +1,77 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-bg{
+    background-color: #293766;    
+}
+
+.sec-bg {
+    background-color: #f0f0f0;
+}
+
+.navbar.scrolled {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled .nav-link {
+    color: #0061c8 !important; /* Warna biru untuk teks */
+}
+
+.navbar .nav-link {
+    color: white !important; /* Warna putih default */
+}
+
+.nav-item a {
+    font-size: 1.5rem;
+}
+
+.container .title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.hero {
+    width: 100%;
+    height: 100%;
+    max-height: 38rem;
+    object-fit: cover;
+    object-position: center 40%;
+}
+
+.marquee {
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+    font-size: 2rem;
+    transform: translateX(100%);
+    transition: transform 0.1s linear infinite; 
+    /* transform: translateX(calc(-50% + 11.526315789473685vw)); */
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 40%;
+}
+
+@media (max-width: 720px) {
+    .container .title {
+        font-size: 1.5rem;
+    }
+
+    .hero {
+        height: 100%;
+        max-height: 24rem;
+    }
+
+    .desc {
+        text-align: center;
+    }
+
+    .marquee {
+        font-size: 1.5rem;
+    }
+}
