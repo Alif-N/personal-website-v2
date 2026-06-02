@@ -326,23 +326,28 @@
                 <!-- Form Column -->
                 <div class="col-lg-6">
                     <div class="contact-form-card bg-white p-4 p-md-5 rounded-4 shadow-sm border border-light">
-                        <form action="#" method="POST">
+                        <form action="https://formsubmit.co/alifnasrullah05@gmail.com" method="POST">
+                            <!-- FormSubmit Configuration -->
+                            <input type="hidden" name="_next" value="https://alif-n.github.io/personal-website-v2/">
+                            <input type="hidden" name="_subject" value="New message from Portfolio Website!">
+                            <input type="hidden" name="_template" value="table">
+
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <label for="name" class="form-label text-dark fw-bold">Full Name</label>
-                                    <input type="text" class="form-control rounded-3 py-2" id="name" placeholder="Your Name" required>
+                                    <input type="text" name="name" class="form-control rounded-3 py-2" id="name" placeholder="Your Name" required>
                                 </div>
                                 <div class="col-md-6">
                                     <label for="email" class="form-label text-dark fw-bold">Email Address</label>
-                                    <input type="email" class="form-control rounded-3 py-2" id="email" placeholder="name@email.com" required>
+                                    <input type="email" name="email" class="form-control rounded-3 py-2" id="email" placeholder="name@email.com" required>
                                 </div>
                                 <div class="col-12">
                                     <label for="subject" class="form-label text-dark fw-bold">Subject</label>
-                                    <input type="text" class="form-control rounded-3 py-2" id="subject" placeholder="Message Subject" required>
+                                    <input type="text" name="subject" class="form-control rounded-3 py-2" id="subject" placeholder="Message Subject" required>
                                 </div>
                                 <div class="col-12">
                                     <label for="message" class="form-label text-dark fw-bold">Your Message</label>
-                                    <textarea class="form-control rounded-3 py-2" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                                    <textarea name="message" class="form-control rounded-3 py-2" id="message" rows="5" placeholder="Write your message here..." required></textarea>
                                 </div>
                                 <div class="col-12 mt-4">
                                     <button type="submit" class="btn btn-primary w-100 py-3 rounded-3 text-white fw-bold">Send Message</button>
