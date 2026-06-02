@@ -3,142 +3,507 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Alif | Portfolio </title>
+    <title>Mochammad Alif Nasrullah | Portfolio</title>
+    <meta name="description" content="Portfolio of Mochammad Alif Nasrullah - Computer Science Student, Back-End Developer, and Competitive Programmer. Bridging the Gap Between Users and Technology.">
+    
+    <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <nav class="navbar .navbar.scrolled navbar-expand-lg main-bg py-3 sticky-top">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg py-3 fixed-top">
         <div class="container">
-            <a class="nav-link text-white title" href="#">alifnasrullah</a>
+            <a class="nav-link title" href="#">alifnasrullah</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" aria-current="page" href="#experience">Experience</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link text-white" aria-current="page" href="#skill">Skill</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" aria-current="page" href="#">contact</a>
-                    </li> -->
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#journey">Journey</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item ms-lg-2">
+                        <a class="btn btn-primary py-2 px-4 text-white" href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section id="home" class="container">
-        <div class="row">
-            <div class="col-md-6 py-4 my-auto desc">
-                <h1>Mochammad Alif Nasrullah</h1>
-                <h3>Bridging the Gap Between Users and Technology</h3>
-                <p>I'm a Computer Science student with an endless passion for learning. Currently sharpening my skills in back-end development and competitive programming, building the tech that makes apps work smoothly</p>            
-            </div>
-            <div class="col-md-6 mx-auto my-3">
-                <img src="assets/profile.png" class="img-fluid rounded hero" alt="...">
-            </div>
-        </div>
-    </section>
-
-    <section class="container-fluid main-bg text-center py-3">
-        <p class="marquee text-white my-auto">
-            | Let’s turn ideas into reality |
-        </p>
-    </section>
-
-    <section id="experience" class="container-fluid text-center sec-bg pb-3">
-        <h1 class="m-0 py-3">Experience</h1>
+    <!-- Hero Section -->
+    <section id="home">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md card mx-2 mb-4" style="width: 18rem;">
-                    <img src="assets/webdev.png" class="card-img-top rounded mt-3" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Cashier app - CRUD features</h5>
+            <div class="row align-items-center">
+                <div class="col-lg-6 py-4 desc">
+                    <h1 class="hero-title">Mochammad Alif Nasrullah</h1>
+                    <h3 class="hero-subtitle">Bridging the Gap Between Users and Technology</h3>
+                    <p class="hero-text">I am a Computer Science student with a high passion for learning. Currently, I am sharpening my skills in back-end development and competitive programming, building the technology that makes applications run smoothly and reliably.</p>            
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="https://drive.google.com/file/d/1KZ3uaAFU_2LUBU5kdkuoH-7w8ul0xmRx/view?usp=sharing" class="btn btn-primary" target="_blank">
+                            <i class="bi bi-file-earmark-person me-2"></i>Curriculum Vitae
+                        </a>
+                        <a href="https://drive.google.com/file/d/1BEqf4fJQh72zRnePiq89yw9fG1kKJTNM/view?usp=sharing" class="btn btn-outline-light" target="_blank">
+                            <i class="bi bi-folder2-open me-2"></i>Full Portfolio
+                        </a>
                     </div>
                 </div>
-                <div class="col-md card mx-2 mb-4" style="width: 18rem;">
-                    <img src="assets/teach.png" class="card-img-top rounded mt-3" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Teaching</h5>
+                <div class="col-lg-6 my-3 text-center">
+                    <div class="hero-img-container">
+                        <img src="assets/profile.webp" class="img-fluid hero-profile-img" alt="Profile Photo of Alif Nasrullah">
                     </div>
-                </div>
-                <div class="col-md card mx-2 mb-4" style="width: 18rem;">
-                    <img src="assets/portfolio.png" class="card-img-top rounded mt-3" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Portfolio Website</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card card-edit">
-                <div class="card-body text-start">
-                    <p class="h4 text-center">other experiences</p>
-                    <ul>
-                        <li>Building RESTful API with Express.js and MongoDB</li>
-                        <li>Building a simple platformer game with unity</li>
-                        <li>Clustering data with Machine Learning Algorithm</li>
-                        <li>Some teaching and community service experience</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-md-2 g-3">
-                    <a href="https://drive.google.com/file/d/1KZ3uaAFU_2LUBU5kdkuoH-7w8ul0xmRx/view?usp=sharing" class="btn btn-primary w-100" target="_blank">CV</a>
-                </div>
-                <div class="col-md-2 g-3">
-                    <a href="https://drive.google.com/file/d/1BEqf4fJQh72zRnePiq89yw9fG1kKJTNM/view?usp=sharing" class="btn btn-primary w-100" target="_blank">Portfolio</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- <section id="Skill" class="container-fluid">
-        <h1 class="text-center py-3">
-            Skill & Technology
-        </h1>
-        <div class="container-fluid">
-            <img src="assets/profile.JPG" alt="" class="img-fluid rounded" style="width: 100px; height: 100px; object-fit: cover;">
-        </div>
-    </section> -->
-
-    <footer class="container-fluid main-bg text-white py-3">
-        <div class="container text-center py-2">
-            <div class="row">
-                <div class="col h5">
-                    <a href="mailto:alifnasrullah05@gmail.com" class="text-white nav-link" target="_blank">Email</a>
+    <!-- What I Do Section -->
+    <section id="services" class="py-5 bg-white">
+        <div class="container text-center py-4">
+            <h1 class="section-title">What I Do</h1>
+            <div class="row g-4 mt-2 justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon-wrapper mb-4">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+                        <h4 class="service-title">API Development</h4>
+                        <p class="service-text">Designing and building fast, secure, and modular RESTful APIs using Node.js, Express.js, or Flask.</p>
+                    </div>
                 </div>
-                <div class="col h5">
-                    <a href="https://www.instagram.com/alifnasrullahh/" class="text-white nav-link" target="_blank">Instagram</a>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon-wrapper mb-4">
+                            <i class="bi bi-database-fill"></i>
+                        </div>
+                        <h4 class="service-title">Database Design</h4>
+                        <p class="service-text">Designing relational (SQL) and non-relational (NoSQL) database schemas like MongoDB with query and performance optimization.</p>
+                    </div>
                 </div>
-                <div class="col h5">
-                    <a href="https://linkedin.com/in/alifnasrullah05/" class="text-white nav-link" target="_blank">LinkedIn</a>
-                </div>
-                <div class="col h5">
-                    <a href="https://github.com/Alif-N/" class="text-white nav-link" target="_blank">GitHub</a>
-                </div>
-                <div class="col h5">
-                    <a href="https://wa.me/6285854477876" class="text-white nav-link" target="_blank">Whatsapp</a>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon-wrapper mb-4">
+                            <i class="bi bi-braces-asterisk"></i>
+                        </div>
+                        <h4 class="service-title">Problem Solving</h4>
+                        <p class="service-text">Implementing efficient data structures and algorithms to solve complex problems, tested through programming competitions.</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col text-center">
-                <p>Copyright &copy; Alif Nasrullah 2025</p>
+    </section>
+
+    <!-- CSS-based Marquee Section -->
+    <div class="marquee-wrapper">
+        <div class="marquee-track">
+            <span class="marquee-item">Let’s turn ideas into reality</span>
+            <span class="marquee-item">Let’s turn ideas into reality</span>
+            <span class="marquee-item">Let’s turn ideas into reality</span>
+            <span class="marquee-item">Let’s turn ideas into reality</span>
+            <span class="marquee-item">Let’s turn ideas into reality</span>
+            <span class="marquee-item">Let’s turn ideas into reality</span>
+            <span class="marquee-item">Let’s turn ideas into reality</span>
+            <span class="marquee-item">Let’s turn ideas into reality</span>
+        </div>
+    </div>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container text-center">
+            <h1 class="section-title">Experience</h1>
+            
+            <div class="row justify-content-center g-4 mb-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-card-img-wrapper">
+                            <img src="assets/webdev.png" alt="Cashier App - CRUD">
+                        </div>
+                        <div class="project-card-body">
+                            <span class="project-card-badge">Web Development</span>
+                            <h5 class="project-card-title">Cashier App - CRUD Features</h5>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <button class="btn btn-primary btn-sm py-2 px-3 text-white" style="font-size: 0.85rem;" data-bs-toggle="modal" data-bs-target="#cashierModal">Details</button>
+                                <a href="https://github.com/Alif-N/" target="_blank" class="btn btn-outline-secondary btn-sm py-2 px-3" style="font-size: 0.85rem;"><i class="bi bi-github me-1"></i>GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-card-img-wrapper">
+                            <img src="assets/teach.webp" alt="Teaching Experience">
+                        </div>
+                        <div class="project-card-body">
+                            <span class="project-card-badge">Education</span>
+                            <h5 class="project-card-title">Teaching & Mentoring</h5>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <button class="btn btn-primary btn-sm py-2 px-3 text-white" style="font-size: 0.85rem;" data-bs-toggle="modal" data-bs-target="#teachModal">Details</button>
+                                <a href="https://github.com/Alif-N/" target="_blank" class="btn btn-outline-secondary btn-sm py-2 px-3" style="font-size: 0.85rem;"><i class="bi bi-github me-1"></i>GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-card-img-wrapper">
+                            <img src="assets/portfolio.png" alt="Portfolio Website">
+                        </div>
+                        <div class="project-card-body">
+                            <span class="project-card-badge">Front-End</span>
+                            <h5 class="project-card-title">Portfolio Website</h5>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <button class="btn btn-primary btn-sm py-2 px-3 text-white" style="font-size: 0.85rem;" data-bs-toggle="modal" data-bs-target="#portfolioModal">Details</button>
+                                <a href="https://github.com/Alif-N/" target="_blank" class="btn btn-outline-secondary btn-sm py-2 px-3" style="font-size: 0.85rem;"><i class="bi bi-github me-1"></i>GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Experiences -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10">
+                    <div class="experiences-list-card">
+                        <p class="list-title">Other Experiences</p>
+                        <ul>
+                            <li>Building RESTful API with Express.js and MongoDB</li>
+                            <li>Building a simple 2D platformer game with Unity Game Engine</li>
+                            <li>Clustering data with Machine Learning Algorithms (Unsupervised Learning)</li>
+                            <li>Community service and peer-to-peer tutoring in computer science concepts</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Journey Section -->
+    <section id="journey" class="py-5 bg-light">
+        <div class="container py-4 text-center">
+            <h1 class="section-title">My Journey</h1>
+            <div class="timeline mt-5">
+                <div class="timeline-container left">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - Present</span>
+                        <h4 class="timeline-title">Universitas Airlangga</h4>
+                        <p class="timeline-text">B.S. in Computer Science Student. Actively studying software engineering, data structures, algorithms, and intelligent computing.</p>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="timeline-content">
+                        <span class="timeline-date">February 2024 - Present</span>
+                        <h4 class="timeline-title">Teaching & Laboratory Assistant</h4>
+                        <p class="timeline-text">Assisting the teaching and learning process for programming and data structures courses, and mentoring junior students in lab sessions.</p>
+                    </div>
+                </div>
+                <div class="timeline-container left">
+                    <div class="timeline-content">
+                        <span class="timeline-date">July 2024 - Present</span>
+                        <h4 class="timeline-title">Independent Back-End Developer</h4>
+                        <p class="timeline-text">Developing various independent back-end projects, designing reliable RESTful API architectures, and designing SQL & NoSQL database schemas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container text-center">
+            <h1 class="section-title">Skills & Technology</h1>
+            
+            <div class="row g-4 justify-content-center">
+                <!-- Languages -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-category-card">
+                        <h4 class="category-title">
+                            <i class="bi bi-code-slash me-2 text-primary"></i>Languages
+                        </h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">HTML5 / CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Back-End -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-category-card">
+                        <h4 class="category-title">
+                            <i class="bi bi-server me-2 text-primary"></i>Back-End Dev
+                        </h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express.js</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">RESTful API</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools & Others -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-category-card">
+                        <h4 class="category-title">
+                            <i class="bi bi-cpu me-2 text-primary"></i>Tools & Others
+                        </h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git & GitHub</span>
+                            <span class="skill-tag">Unity Engine</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Competitive Prog.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container py-4 text-center">
+            <h1 class="section-title">Get in Touch</h1>
+            <div class="row g-5 mt-4 text-start justify-content-center">
+                <!-- Info Column -->
+                <div class="col-lg-5">
+                    <h3 class="font-outfit fw-bold text-primary mb-4">Let's Connect!</h3>
+                    <p class="text-secondary mb-4">I am always open to discussing new project opportunities, software development collaborations, or simply sharing thoughts on programming. Reach out to me through any of the channels below or send a direct message!</p>
+                    
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="contact-icon bg-white text-primary rounded-3 shadow-sm d-flex justify-content-center align-items-center me-3" style="width: 50px; height: 50px; font-size: 1.5rem;">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <div>
+                            <span class="text-muted d-block" style="font-size: 0.85rem;">Email</span>
+                            <a href="mailto:alifnasrullah05@gmail.com" class="text-decoration-none text-dark fw-bold">alifnasrullah05@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="contact-icon bg-white text-primary rounded-3 shadow-sm d-flex justify-content-center align-items-center me-3" style="width: 50px; height: 50px; font-size: 1.5rem;">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                        <div>
+                            <span class="text-muted d-block" style="font-size: 0.85rem;">Location</span>
+                            <span class="text-dark fw-bold">Surabaya, Indonesia</span>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-center">
+                        <div class="contact-icon bg-white text-primary rounded-3 shadow-sm d-flex justify-content-center align-items-center me-3" style="width: 50px; height: 50px; font-size: 1.5rem;">
+                            <i class="bi bi-clock"></i>
+                        </div>
+                        <div>
+                            <span class="text-muted d-block" style="font-size: 0.85rem;">Working Hours</span>
+                            <span class="text-dark fw-bold">Monday - Friday, 9:00 AM - 5:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Form Column -->
+                <div class="col-lg-6">
+                    <div class="contact-form-card bg-white p-4 p-md-5 rounded-4 shadow-sm border border-light">
+                        <form action="#" method="POST">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label text-dark fw-bold">Full Name</label>
+                                    <input type="text" class="form-control rounded-3 py-2" id="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label text-dark fw-bold">Email Address</label>
+                                    <input type="email" class="form-control rounded-3 py-2" id="email" placeholder="name@email.com" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="subject" class="form-label text-dark fw-bold">Subject</label>
+                                    <input type="text" class="form-control rounded-3 py-2" id="subject" placeholder="Message Subject" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label text-dark fw-bold">Your Message</label>
+                                    <textarea class="form-control rounded-3 py-2" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn btn-primary w-100 py-3 rounded-3 text-white fw-bold">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container-fluid text-center">
+        <div class="container">
+            <div class="row justify-content-center g-3 mb-4">
+                <div class="col-auto">
+                    <a href="mailto:alifnasrullah05@gmail.com" class="nav-link" target="_blank">
+                        <i class="bi bi-envelope-fill me-2"></i>Email
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href="https://www.instagram.com/alifnasrullahh/" class="nav-link" target="_blank">
+                        <i class="bi bi-instagram me-2"></i>Instagram
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href="https://linkedin.com/in/alifnasrullah05/" class="nav-link" target="_blank">
+                        <i class="bi bi-linkedin me-2"></i>LinkedIn
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href="https://github.com/Alif-N/" class="nav-link" target="_blank">
+                        <i class="bi bi-github me-2"></i>GitHub
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href="https://wa.me/6285854477876" class="nav-link" target="_blank">
+                        <i class="bi bi-whatsapp me-2"></i>Whatsapp
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-divider"></div>
+            
+            <div class="row">
+                <div class="col">
+                    <p class="mb-0">&copy; 2026 All Rights Reserved.</p>
+                </div>
             </div>
         </div>
     </footer>
 
+    <!-- Project Details Modals -->
+    <!-- Modal 1: Cashier App -->
+    <div class="modal fade" id="cashierModal" tabindex="-1" aria-labelledby="cashierModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 rounded-4 shadow-lg">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title font-outfit fw-bold text-primary" id="cashierModalLabel">Cashier App - CRUD Features</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-3">
+                    <img src="assets/webdev.png" class="img-fluid rounded-3 mb-4 w-100" style="max-height: 350px; object-fit: cover;" alt="Cashier App Detail">
+                    <h6 class="fw-bold text-dark mb-2">Project Description:</h6>
+                    <p class="text-secondary">A web-based Cashier Application designed to help MSMEs manage product inventory, record sales transactions in real-time, and easily perform CRUD (Create, Read, Update, Delete) operations on items.</p>
+                    
+                    <h6 class="fw-bold text-dark mt-4 mb-2">Key Features:</h6>
+                    <ul class="text-secondary">
+                        <li>Inventory management (add, edit, delete product data).</li>
+                        <li>Transaction recording with automatic total calculation.</li>
+                        <li>Daily sales summary dashboard.</li>
+                    </ul>
+
+                    <h6 class="fw-bold text-dark mt-4 mb-2">Technologies Used:</h6>
+                    <div class="d-flex flex-wrap gap-2 mt-2">
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">HTML5 / CSS3</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">JavaScript (ES6)</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">Bootstrap 5</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">Node.js / Express</span>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <a href="https://github.com/Alif-N/" target="_blank" class="btn btn-outline-secondary px-4"><i class="bi bi-github me-2"></i>GitHub Repo</a>
+                    <button type="button" class="btn btn-primary px-4" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2: Teaching -->
+    <div class="modal fade" id="teachModal" tabindex="-1" aria-labelledby="teachModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 rounded-4 shadow-lg">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title font-outfit fw-bold text-primary" id="teachModalLabel">Teaching & Mentoring</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-3">
+                    <img src="assets/teach.webp" class="img-fluid rounded-3 mb-4 w-100" style="max-height: 350px; object-fit: cover;" alt="Teaching Detail">
+                    <h6 class="fw-bold text-dark mb-2">Project Description:</h6>
+                    <p class="text-secondary">Experience teaching and mentoring first-year university students and local community members in understanding core programming logic, basic data structures (such as arrays, stacks, queues), and fundamentals of web development.</p>
+                    
+                    <h6 class="fw-bold text-dark mt-4 mb-2">Key Activities:</h6>
+                    <ul class="text-secondary">
+                        <li>Preparing basic programming practicum materials in C++ and Python.</li>
+                        <li>Providing one-on-one (peer-to-peer) mentoring to debug code errors and troubleshoot logic.</li>
+                        <li>Conducting introductory classes on Git and GitHub for team collaboration.</li>
+                    </ul>
+
+                    <h6 class="fw-bold text-dark mt-4 mb-2">Core Topics:</h6>
+                    <div class="d-flex flex-wrap gap-2 mt-2">
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">C++ Programming</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">Python</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">Data Structures</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">Git Version Control</span>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-primary px-4" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3: Portfolio -->
+    <div class="modal fade" id="portfolioModal" tabindex="-1" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 rounded-4 shadow-lg">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title font-outfit fw-bold text-primary" id="portfolioModalLabel">Portfolio Website</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-3">
+                    <img src="assets/portfolio.png" class="img-fluid rounded-3 mb-4 w-100" style="max-height: 350px; object-fit: cover;" alt="Portfolio Detail">
+                    <h6 class="fw-bold text-dark mb-2">Project Description:</h6>
+                    <p class="text-secondary">A responsive personal portfolio website designed to showcase skills, education history, and completed projects. Styled with a premium blue-white theme and interactive visuals.</p>
+                    
+                    <h6 class="fw-bold text-dark mt-4 mb-2">Key Features:</h6>
+                    <ul class="text-secondary">
+                        <li>Fully responsive layout (mobile-first design).</li>
+                        <li>Dynamic navbar transitions (glassmorphic effect) and CSS text marquee.</li>
+                        <li>Optimized image assets using high-compression .webp formats.</li>
+                    </ul>
+
+                    <h6 class="fw-bold text-dark mt-4 mb-2">Technologies Used:</h6>
+                    <div class="d-flex flex-wrap gap-2 mt-2">
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">HTML5 / Vanilla CSS3</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">JavaScript (ES6+)</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">Bootstrap 5.3</span>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <a href="https://github.com/Alif-N/" target="_blank" class="btn btn-outline-secondary px-4"><i class="bi bi-github me-2"></i>GitHub Repo</a>
+                    <button type="button" class="btn btn-primary px-4" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
