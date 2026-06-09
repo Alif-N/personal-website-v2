@@ -57,9 +57,9 @@
                 <div class="col-lg-6 py-4 desc">
                     <h1 class="hero-title">Mochammad Alif Nasrullah</h1>
                     <h3 class="hero-subtitle">Bridging the Gap Between Users and Technology</h3>
-                    <p class="hero-text">I am a Computer Science student with a high passion for learning. Currently, I am sharpening my skills in back-end development and machine learning, building the technology that makes applications run smoothly and reliably.</p>            
+                    <p class="hero-text">I am a Computer Science student with a high passion for learning. Currently, I am sharpening my skills in back-end development and system design, building the technology that makes applications run smoothly and reliably.</p>            
                     <div class="d-flex flex-wrap gap-3">
-                        <a href="https://drive.google.com/file/d/1KZ3uaAFU_2LUBU5kdkuoH-7w8ul0xmRx/view?usp=sharing" class="btn btn-primary" target="_blank">
+                        <a href="https://drive.google.com/file/d/1cSW9QZi93CVA6jp3hKdNg82kVZCa2har/view?usp=sharing" class="btn btn-primary" target="_blank">
                             <i class="bi bi-file-earmark-person me-2"></i>Curriculum Vitae
                         </a>
                         <a href="https://drive.google.com/file/d/1BEqf4fJQh72zRnePiq89yw9fG1kKJTNM/view?usp=sharing" class="btn btn-outline-light" target="_blank">
@@ -81,31 +81,58 @@
         <div class="container text-center py-4">
             <h1 class="section-title">What I Do</h1>
             <div class="row g-4 mt-2 justify-content-center">
+                <!-- Service 1: Backend Development -->
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card">
                         <div class="service-icon-wrapper mb-4">
-                            <i class="bi bi-code-slash"></i>
+                            <i class="bi bi-server"></i>
                         </div>
-                        <h4 class="service-title">API Development</h4>
-                        <p class="service-text">Designing and building fast, secure, and modular RESTful APIs using Node.js, Express.js, or Flask.</p>
+                        <h4 class="service-title">Backend Development</h4>
+                        <p class="service-text">Designing and building robust, secure RESTful APIs using Golang, Laravel, or Node.js. Experienced in GORM, Clean Architecture, and CQRS patterns to ensure high system integrity and performance.</p>
                     </div>
                 </div>
+
+                <!-- Service 2: Mobile Development -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon-wrapper mb-4">
+                            <i class="bi bi-phone"></i>
+                        </div>
+                        <h4 class="service-title">Mobile Development</h4>
+                        <p class="service-text">Developing cross-platform mobile apps using Flutter or React Native, integrating third-party public APIs (such as BMKG weather alerts), local push notifications, and geolocation services.</p>
+                    </div>
+                </div>
+
+                <!-- Service 3: Full-Stack Web Development -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon-wrapper mb-4">
+                            <i class="bi bi-laptop"></i>
+                        </div>
+                        <h4 class="service-title">Full-Stack Development</h4>
+                        <p class="service-text">Building modern, interactive full-stack web applications and static company profiles using Next.js, React, and Laravel, implementing MVC architecture, SEO optimization, and social media/Google Maps integration.</p>
+                    </div>
+                </div>
+
+                <!-- Service 4: Database & System Integration -->
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card">
                         <div class="service-icon-wrapper mb-4">
                             <i class="bi bi-database-fill"></i>
                         </div>
-                        <h4 class="service-title">Database Design</h4>
-                        <p class="service-text">Designing relational (SQL) and non-relational (NoSQL) database schemas like MongoDB with query and performance optimization.</p>
+                        <h4 class="service-title">Database & Integration</h4>
+                        <p class="service-text">Designing optimized relational databases (PostgreSQL, MySQL) and real-time NoSQL databases (Firestore). Experienced in resolving system fragmentation and unified inventory/stock management.</p>
                     </div>
                 </div>
+
+                <!-- Service 5: Mobile AI Integration -->
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card">
                         <div class="service-icon-wrapper mb-4">
-                            <i class="bi bi-braces-asterisk"></i>
+                            <i class="bi bi-cpu"></i>
                         </div>
-                        <h4 class="service-title">Problem Solving</h4>
-                        <p class="service-text">Implementing efficient data structures and algorithms to solve complex problems, tested through programming competitions.</p>
+                        <h4 class="service-title">Mobile AI Integration</h4>
+                        <p class="service-text">Integrating machine learning models like YOLO for on-device object detection and automation in mobile platforms, minimizing manual human effort and streamlining business operations.</p>
                     </div>
                 </div>
             </div>
@@ -113,7 +140,7 @@
     </section>
 
     <!-- CSS-based Marquee Section -->
-    <div class="marquee-wrapper">
+    <!-- <div class="marquee-wrapper">
         <div class="marquee-track">
             <span class="marquee-item">Let’s turn ideas into reality</span>
             <span class="marquee-item">Let’s turn ideas into reality</span>
@@ -124,7 +151,7 @@
             <span class="marquee-item">Let’s turn ideas into reality</span>
             <span class="marquee-item">Let’s turn ideas into reality</span>
         </div>
-    </div>
+    </div> -->
 
     <!-- Experience Section -->
     <section id="experience">
@@ -233,6 +260,23 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Card 7: BisaBekleed -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-card-img-wrapper">
+                            <img src="assets/bisabekleed.png" alt="BisaBekleed Company Profile">
+                        </div>
+                        <div class="project-card-body">
+                            <span class="project-card-badge">Web Development</span>
+                            <h5 class="project-card-title">BisaBekleed</h5>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <button class="btn btn-primary btn-sm py-2 px-3 text-white" style="font-size: 0.85rem;" data-bs-toggle="modal" data-bs-target="#bisabekleedModal">Details</button>
+                                <a href="https://bisabekleed.com" target="_blank" class="btn btn-outline-secondary btn-sm py-2 px-3" style="font-size: 0.85rem;"><i class="bi bi-globe me-1"></i>Visit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Other Experiences -->
@@ -241,9 +285,8 @@
                     <div class="experiences-list-card">
                         <p class="list-title">Other Experiences</p>
                         <ul>
-                            <li>Building RESTful API with Express.js and MongoDB</li>
-                            <li>Building a simple 2D platformer game with Unity Game Engine</li>
-                            <li>Clustering data with Machine Learning Algorithms (Unsupervised Learning)</li>
+                            <li>Building a simple 2D platformer game with Unity Game Engine and 3D asset with Blender</li>
+                            <li>Clustering data with Machine Learning Algorithms</li>
                             <li>Community service and peer-to-peer tutoring in computer science concepts</li>
                         </ul>
                     </div>
@@ -325,7 +368,7 @@
                                 <div class="timeline-dot"></div>
                             </div>
                             <div class="timeline-content-card">
-                                <h4 class="timeline-title-horizontal">Backend Developer at PT. Semen Indonesia Logistik</h4>
+                                <h4 class="timeline-title-horizontal">Capstone Project at PT. Semen Indonesia Logistik</h4>
                                 <p class="timeline-text-horizontal">Developing and maintaining the back-end system for the warehouse management system, implementing new features, and ensuring system functionality and performance.</p>
                             </div>
                         </div>
@@ -373,7 +416,6 @@
                             <span class="skill-tag">Node.js (Express)</span>
                             <span class="skill-tag">GORM</span>
                             <span class="skill-tag">Blade Template</span>
-                            <span class="skill-tag">Mantine UI</span>
                             <span class="skill-tag">Bootstrap 5</span>
                         </div>
                     </div>
@@ -724,6 +766,44 @@
                 </div>
                 <div class="modal-footer border-0">
                     <a href="https://github.com/Alif-N/FP_PPB" target="_blank" class="btn btn-outline-secondary px-4"><i class="bi bi-github me-2"></i>GitHub Repo</a>
+                    <button type="button" class="btn btn-primary px-4" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 7: BisaBekleed -->
+    <div class="modal fade" id="bisabekleedModal" tabindex="-1" aria-labelledby="bisabekleedModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 rounded-4 shadow-lg">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title font-outfit fw-bold text-primary" id="bisabekleedModalLabel">BisaBekleed</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-3">
+                    <img src="assets/bisabekleed.png" class="img-fluid rounded-3 mb-4 w-100" style="max-height: 350px; object-fit: cover;" alt="BisaBekleed Detail">
+                    <h6 class="fw-bold text-dark mb-2">Project Description:</h6>
+                    <p class="text-secondary">Developed a static company profile website for a car seat upholstery (bekleed jok mobil) business as a freelance web developer. Built using the Next.js framework, the project focuses on delivering a fast, responsive user experience, implementing SEO best practices to improve local search engine visibility, and integrating social media links along with interactive Google Maps for easy location tracking.</p>
+                    
+                    <h6 class="fw-bold text-dark mt-4 mb-2">Key Features:</h6>
+                    <ul class="text-secondary">
+                        <li>Modern and responsive static company profile design.</li>
+                        <li>Basic search engine optimization (SEO) setup for local business keywords.</li>
+                        <li>Social media contact integration (WhatsApp, Instagram).</li>
+                        <li>Embedded Google Maps showing the workshop location.</li>
+                    </ul>
+
+                    <h6 class="fw-bold text-dark mt-4 mb-2">Technologies Used:</h6>
+                    <div class="d-flex flex-wrap gap-2 mt-2">
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">Next.js</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">React</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">Tailwind CSS</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">Google Maps Integration</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">SEO Optimization</span>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <!-- <a href="https://github.com/Alif-N/" target="_blank" class="btn btn-outline-secondary px-4"><i class="bi bi-github me-2"></i>GitHub Repo</a> -->
                     <button type="button" class="btn btn-primary px-4" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
