@@ -287,6 +287,7 @@
                     </div>
                 </div>
 
+                <!-- Card 8: Cipta Tech -->
                 <div class="col-lg-4 col-md-6">
                     <div class="project-card">
                         <div class="project-card-img-wrapper">
@@ -301,6 +302,26 @@
                             <div class="d-flex justify-content-between align-items-center mt-3">
                                 <button class="btn btn-primary btn-sm py-2 px-3 text-white" style="font-size: 0.85rem;" data-bs-toggle="modal" data-bs-target="#ciptatechModal">Details</button>
                                 <a href="https://ciptatech-company-profile.vercel.app" target="_blank" class="btn btn-outline-secondary btn-sm py-2 px-3" style="font-size: 0.85rem;"><i class="bi bi-globe me-1"></i>Visit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 9: Cuanku -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-card-img-wrapper">
+                            <img src="assets/cuanku.png" alt="Cuanku">
+                        </div>
+                        <div class="project-card-body">
+                            <div class="d-flex align-items-center flex-wrap mb-2">
+                                <span class="project-card-badge mb-0">Web Development</span>
+                                <span class="badge-ongoing"><span class="status-dot-warning"></span>under development</span>
+                            </div>
+                            <h5 class="project-card-title">Cuanku - Personal Cashflow Management</h5>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <button class="btn btn-primary btn-sm py-2 px-3 text-white" style="font-size: 0.85rem;" data-bs-toggle="modal" data-bs-target="#cuankuModal">Details</button>
+                                <a href="https://personal-cuanku.vercel.app/" target="_blank" class="btn btn-outline-secondary btn-sm py-2 px-3" style="font-size: 0.85rem;"><i class="bi bi-globe me-1"></i>Visit</a>
                             </div>
                         </div>
                     </div>
@@ -837,6 +858,7 @@
         </div>
     </div>
 
+    <!-- Modal 8: Cipta Tech -->
     <div class="modal fade" id="ciptatechModal" tabindex="-1" aria-labelledby="ciptatechModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content border-0 rounded-4 shadow-lg">
@@ -845,16 +867,16 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body pt-3">
-                    <img src="assets/ciptatech.png" class="img-fluid rounded-3 mb-4 w-100" style="max-height: 350px; object-fit: cover;" alt="BisaBekleed Detail">
+                    <img src="assets/ciptatech.png" class="img-fluid rounded-3 mb-4 w-100" style="max-height: 350px; object-fit: cover;" alt="Cipta Tech Detail">
                     <h6 class="fw-bold text-dark mb-2">Project Description:</h6>
-                    <p class="text-secondary">Developed a static company profile website for a car seat upholstery (bekleed jok mobil) business as a freelance web developer. Built using the Next.js framework, the project focuses on delivering a fast, responsive user experience, implementing SEO best practices to improve local search engine visibility, and integrating social media links along with interactive Google Maps for easy location tracking.</p>
+                    <p class="text-secondary">Developed the official company profile website for Cipta Tech as a team project for a Technopreneurship course. Cipta Tech is a digital solutions venture providing professional web development and tailored AI solution services. The company profile (compro) website was developed using the Next.js framework, prioritizing speed, clean responsive design, and modern usability.</p>
                     
                     <h6 class="fw-bold text-dark mt-4 mb-2">Key Features:</h6>
                     <ul class="text-secondary">
-                        <li>Modern and responsive static company profile design.</li>
-                        <li>Basic search engine optimization (SEO) setup for local business keywords.</li>
-                        <li>Social media contact integration (WhatsApp, Instagram).</li>
-                        <li>Embedded Google Maps showing the workshop location.</li>
+                        <li>Modern and responsive company profile design showcasing technological services.</li>
+                        <li>Showcase of professional offerings including Web Development and AI Solutions.</li>
+                        <li>Created as a business project for a Technopreneurship academic syllabus.</li>
+                        <li>Optimized codebase with Next.js for high performance and fast load times.</li>
                     </ul>
 
                     <h6 class="fw-bold text-dark mt-4 mb-2">Technologies Used:</h6>
@@ -866,6 +888,45 @@
                 </div>
                 <div class="modal-footer border-0">
                     <a href="https://ciptatech-company-profile.vercel.app/" target="_blank" class="btn btn-outline-secondary px-4"><i class="bi bi-globe me-2"></i>Visit Live Website</a>
+                    <button type="button" class="btn btn-primary px-4" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 9: Cuanku -->
+    <div class="modal fade" id="cuankuModal" tabindex="-1" aria-labelledby="cuankuModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 rounded-4 shadow-lg">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title font-outfit fw-bold text-primary" id="cuankuModalLabel">Cuanku</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-3">
+                    <img src="assets/cuanku.png" class="img-fluid rounded-3 mb-4 w-100" style="max-height: 350px; object-fit: cover;" alt="Cuanku Detail">
+                    <h6 class="fw-bold text-dark mb-2">Project Description:</h6>
+                    <p class="text-secondary">Developed a personal cashflow management web application designed to help users track, monitor, and organize their daily income and expenses. Built as a full-stack application using Next.js, the project integrates Supabase for robust database management and user authentication. It ensures secure data isolation and privacy through custom Row Level Security (RLS) policies, allowing users to safely manage their own financial data.</p>
+                    
+                    <h6 class="fw-bold text-dark mt-4 mb-2">Key Features:</h6>
+                    <ul class="text-secondary">
+                        <li>Comprehensive personal finance tracking for income and expense transactions.</li>
+                        <li>Secure user authentication (Sign Up, Sign In, and Sign Out) powered by Supabase Auth.</li>
+                        <li>Database privacy and data isolation enforced via Supabase Row Level Security (RLS) policies.</li>
+                        <li>Interactive dashboard with real-time balance calculations and categorized transaction history.</li>
+                    </ul>
+
+                    <h6 class="fw-bold text-dark mt-4 mb-2">Technologies Used:</h6>
+                    <div class="d-flex flex-wrap gap-2 mt-2">
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">Next.js</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">React</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">Supabase</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">Supabase Auth</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">Row Level Security (RLS)</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-3">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <a href="https://personal-cuanku.vercel.app/" target="_blank" class="btn btn-outline-secondary px-4"><i class="bi bi-globe me-2"></i>Visit Live Website</a>
                     <button type="button" class="btn btn-primary px-4" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
